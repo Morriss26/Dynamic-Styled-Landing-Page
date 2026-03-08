@@ -1,0 +1,28 @@
+body{
+   
+    background-color: azure;
+    color:rgb(23, 12, 32);
+}
+header{
+    color: rgb(158, 32, 137);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    font-size: larger;
+}
+header:hover{
+    background-color: rgb(173, 147, 197);
+}
+footer{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+}
+nav ul{
+    display:flex;
+    justify-content: space-evenly;
+
+}
+ .container{
+    display: grid;
+    gride-template-columns: repeat(auto-fit,minmax(150px,1fr));
+}
